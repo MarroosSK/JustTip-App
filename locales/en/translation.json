@@ -1,0 +1,304 @@
+{
+  "title": "Tip Calculator",
+  "amount_placeholder": "Enter amount",
+  "input_placeholder": "Enter amount",
+  "custom": "Custom",
+  "tip_amount": "Amount",
+  "total_amount": "Total",
+  "tip_percent": "Tip",
+  "pick_tip_percentage": "Choose %",
+  "submit_tip": "Submit Tip",
+  "get_advice": "Get Advice",
+  "badge_unlocked_title": "Badge unlocked!",
+  "tip_submitted": "Tip submitted",
+  "welcome_subtitle": "Let's get started with a few settings to personalize your experience.",
+  "choose_username": "Username",
+  "choose_language": "Choose Language",
+  "choose_currency": "Choose Currency",
+  "choose_theme": "Choose Theme",
+  "start": "Make First Tip",
+  "split_between": "Split between",
+  "per_person": "per person",
+  "menu_title": "Menu",
+  "menu_calculator": "Tip Calculator",
+  "menu_badges": "Badges",
+  "menu_overview": "Overview",
+  "menu_settings": "Settings",
+  "menu_feedback": "Send Feedback",
+  "menu_rate_us": "Rate Us",
+  "menu_terms": "Terms of Service",
+  "menu_privacy": "Privacy Policy",
+  "tip_count": "Total tips",
+  "total_tips": "Total tipped",
+  "best_tip": "Best tip",
+  "language_explainer": "Select your preferred language for the app.",
+  "currency_explainer": "Choose the currency you want to use for tips.",
+  "username_explainer": "Enter your username so we can personalize your experience. (Optional, you can enter it later)",
+  "welcome_title": "Welcome to JustTip",
+  "username_title": "Name",
+  "welcome_explainer": "JustTip makes splitting bills and calculating tips fast and easy.",
+  "username_placeholder": "Enter name",
+  "default_percentage": "Default %",
+  "percentage_explainer": "Set your default tip percentage for quick calculations.",
+  "percentage_placeholder": "Value 0-100%",
+  "theme_explainer": "Choose the colors of the app that suit you best.",
+  "summary": "Summary",
+  "username": "Username",
+  "currency": "Currency",
+  "theme": "Theme",
+  "language": "Language",
+  "finish": "Finish",
+  "next": "Next",
+  "skip": "Skip",
+  "back": "Back",
+  "badges_title": "Badges",
+  "badges_unlocked": "badges unlocked",
+  "all": "All",
+  "unlocked": "Unlocked",
+  "locked": "Locked",
+  "overview_title": "Overview",
+  "badges": {
+    "one_tip": {
+      "name": "First Tip",
+      "description": "Give your very first tip."
+    },
+    "five_tips": {
+      "name": "Five Tips",
+      "description": "Give a tip 5 times."
+    },
+    "ten_tips": {
+      "name": "Ten Tips",
+      "description": "Give a tip 10 times."
+    },
+    "twenty_tips": {
+      "name": "20 Tips",
+      "description": "Give a tip 20 times."
+    },
+    "fifty_tips": {
+      "name": "50+ Tips",
+      "description": "Give a tip 50 times or more."
+    },
+    "tip_5_percent": {
+      "name": "5% Tip",
+      "description": "Give a 5% tip."
+    },
+    "tip_10_percent": {
+      "name": "10% Tip",
+      "description": "Give a 10% tip."
+    },
+    "tip_15_percent": {
+      "name": "15% Tip",
+      "description": "Give a 15% tip."
+    },
+    "tip_20_percent": {
+      "name": "20%+ Tip",
+      "description": "Give a 20% tip."
+    },
+    "tip_2_amount": {
+      "name": "Tip at least 2",
+      "description": "Your tip is at least 2."
+    },
+    "tip_5_amount": {
+      "name": "Tip at least 5",
+      "description": "Your tip is at least 5."
+    },
+    "tip_10_amount": {
+      "name": "Tip at least 7",
+      "description": "Your tip is at least 7."
+    },
+    "tip_more_than_amount": {
+      "name": "Generous tip!",
+      "description": "Your tip is equal to or greater than 35%."
+    },
+    "level_1": {
+      "name": "Level 1  Beginner",
+      "description": "Give 5 different tips."
+    },
+    "level_2": {
+      "name": "Level 2  Advanced",
+      "description": "Give 10 different."
+    },
+    "level_3": {
+      "name": "Level 3  Legend",
+      "description": "Give 15 different."
+    },
+    "used_1_minute": {
+      "name": "1 Minute of Use",
+      "description": "Use the app for at least 1 minute."
+    },
+    "used_5_minutes": {
+      "name": "5 Minutes of Use",
+      "description": "Use the app for at least 5 minutes."
+    },
+    "used_30_minutes": {
+      "name": "30 Minutes of Use",
+      "description": "Use the app for at least 30 minutes."
+    },
+    "used_1_hour": {
+      "name": "1 Hour of Use",
+      "description": "Use the app for at least 1 hour."
+    }
+  },
+  "view_table": "Detailed table",
+  "view_cards": "Cards",
+  "tour_sum": "Enter the amount of your bill.",
+  "tour_split": "Split between number of people.",
+  "tour_%": "Choose % of tip.",
+  "tour_submit": "Submit your tip.",
+  "terms": {
+    "title": "Terms & Conditions",
+    "paragraph1": "These terms and conditions apply to the JustTip – Tip & Split Calculator app (hereby referred to as \"Application\") for mobile devices that was created by marroos (hereby referred to as \"Service Provider\") as a Free service.",
+    "paragraph2": "Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.",
+    "paragraph3": "The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.",
+    "paragraph4": "The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advise against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all.",
+    "thirdPartyTitle": "Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the Application:",
+    "googleAnalytics": "Google Analytics for Firebase",
+    "expo": "Expo",
+    "paragraph5": "Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.",
+    "paragraph6": "If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, they assume that you have obtained permission from the bill payer.",
+    "paragraph7": "Similarly, the Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.",
+    "paragraph8": "In terms of the Service Provider's responsibility for your use of the application, it is important to note that while they strive to ensure that it is updated and accurate at all times, they do rely on third parties to provide information to them so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the application.",
+    "paragraph9": "The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system (and for any additional systems they decide to extend the availability of the application to) may change, and you will need to download the updates if you want to continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the application, and (if necessary) delete it from your device.",
+    "changesTitle": "Changes to These Terms and Conditions",
+    "paragraph11": "The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page.",
+    "effectiveDate": "These terms and conditions are effective as of 2025-07-16",
+    "contactTitle": "Contact Us",
+    "contactEmail": "If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact the Service Provider at maros1chmel@gmail.com.",
+    "footer": "This Terms and Conditions page was generated by",
+    "footer_link": {
+      "text": "App Privacy Policy Generator",
+      "url": "https://app-privacy-policy-generator.nisrulz.com/"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This privacy policy is applicable to the JustTip – Tip & Split Calculator app (hereinafter referred to as \"Application\") for mobile devices, which was developed by marroos (hereinafter referred to as \"Service Provider\") as a Free service. This service is provided \"AS IS\".",
+
+    "subtitle1": "What information does the Application obtain and how is it used?",
+
+    "subtitle2": "User Provided Information",
+    "paragraph2_1": "The Application acquires the information you supply when you download and register the Application. Registration with the Service Provider is not mandatory. However, bear in mind that you might not be able to utilize some of the features offered by the Application unless you register with them.",
+    "paragraph2_2": "The Service Provider may also use the information you provided them to contact you from time to time to provide you with important information, required notices and marketing promotions.",
+
+    "subtitle3": "Automatically Collected Information",
+    "paragraph3": "In addition, the Application may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Application.",
+
+    "subtitle4": "Does the Application collect precise real time location information of the device?",
+    "paragraph4": "This Application does not gather precise information about the location of your mobile device.",
+
+    "subtitle5": "Do third parties see and/or have access to information obtained by the Application?",
+    "paragraph5_1": "Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.",
+    "paragraph5_2": "Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:",
+    "thirdPartyLink1_name": "Google Analytics for Firebase",
+    "thirdPartyLink1_url": "https://firebase.google.com/support/privacy",
+    "thirdPartyLink2_name": "Expo",
+    "thirdPartyLink2_url": "https://expo.io/privacy",
+    "disclosureList_1": "as required by law, such as to comply with a subpoena, or similar legal process;",
+    "disclosureList_2": "when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;",
+    "disclosureList_3": "with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.",
+
+    "subtitle6": "What are my opt-out rights?",
+    "paragraph6": "You can halt all collection of information by the Application easily by uninstalling the Application. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.",
+
+    "subtitle7": "Data Retention Policy, Managing Your Information",
+    "paragraph7": "The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The Service Provider will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate. If you'd like the Service Provider to delete User Provided Data that you have provided via the Application, please contact them at maros1chmel@gmail.com and we will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.",
+
+    "subtitle8": "Children",
+    "paragraph8_1": "The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.",
+    "paragraph8_2": "The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (maros1chmel@gmail.com) so that they will be able to take the necessary actions.",
+
+    "subtitle9": "Security",
+    "paragraph9": "The Service Provider are concerned about safeguarding the confidentiality of your information. The Service Provider provide physical, electronic, and procedural safeguards to protect information we process and maintain. For example, we limit access to this information to authorized employees and contractors who need to know that information in order to operate, develop or improve their Application. Please be aware that, although we endeavor provide reasonable security for information we process and maintain, no security system can prevent all potential security breaches.",
+
+    "subtitle10": "Changes",
+    "paragraph10": "This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.",
+
+    "effectiveDate": "This privacy policy is effective as of 2025-07-16",
+
+    "subtitle11": "Your Consent",
+    "paragraph11": "By using the Application, you are giving your consent to the Service Provider processing of your information as set forth in this Privacy Policy now and as amended by us. \"Processing,” means using cookies on a computer/hand held device or using or touching information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information.",
+
+    "subtitle12": "Contact us",
+    "paragraph12": "If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at maros1chmel@gmail.com.",
+
+    "footer": "This privacy policy page was generated by",
+    "footerLink": {
+      "text": "App Privacy Policy Generator",
+      "url": "https://app-privacy-policy-generator.nisrulz.com/"
+    }
+  },
+  "feedback": {
+    "title": "Feedback",
+    "placeholder_subject": "Subject (e.g. Bug, Idea...)",
+    "placeholder_message": "Write your message...",
+    "send": "Send",
+    "cancel": "Cancel",
+    "thank_you_title": "Thank you!",
+    "thank_you_message": "Feedback was sent successfully.",
+    "error_title": "Error",
+    "error_message": "Failed to send feedback.",
+    "wait_title": "Please wait",
+    "wait_message": "You can send feedback only once per minute.",
+    "required_subject": "Subject is required",
+    "required_message": "Message is required"
+  },
+  "personal_settings": "Personal Settings",
+  "tipping_style": "Tipping Style Hints",
+  "tipping_none": "None",
+  "tipping_mandatory": "Mandatory tipping (e.g. USA, Canada)",
+  "tipping_optional": "Optional tipping (e.g. Europe, Asia)",
+  "enable_tour": "Enable Tour",
+  "theme_mode": "Theme & Mode",
+  "mode": "Mode",
+  "tip_message": "A recommended tip is ",
+  "tab_graph": "Chart",
+  "tab_history": "History",
+  "filter": {
+    "dateAsc": "Date",
+    "dateDesc": "Date",
+    "tipAsc": "Tip",
+    "tipDesc": "Tip"
+  },
+  "chart": {
+    "totalPayment": "Last 5 Bills",
+    "totalTip": "Last 5 Tips",
+    "topTips": "Top 5 Tips"
+  },
+  "badge_unlocked_cancel": "Cancel",
+  "last3": {
+    "last3_noTips": "Ready to track your first tip?",
+    "last3_link": "See all",
+    "last3_title": "Recent tips"
+  },
+  "chartList": {
+    "listEmpty": "You have not added any tips yet.",
+    "chartEmpty": "Your chart is empty.",
+    "chartTitle": "Recent records"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage app preferences"
+  },
+  "numsheetTip": {
+    "title": "Tip %",
+    "desc": "Enter a number from 0 to 100"
+  },
+  "numsheetSplit": {
+    "title": "Split between",
+    "desc": "Enter a number from 1 to 100"
+  },
+  "consent_link": "By continuing, you agree to the Terms and Privacy Policy",
+  "consent_continue": "Continue",
+  "swipe_to_see_more": "Swipe to see more",
+  "greeting": "Hello, ",
+  "no_badges_unlocked": "There are no badges here.",
+  "settings_title": "Settings",
+  "language_label": "Language",
+  "theme_label": "Theme",
+  "light_mode": "Light",
+  "dark_mode": "Dark",
+  "close": "Close",
+  "onboarding_prompt": "What should we call you?",
+  "your_name": "Your name",
+  "confirm": "Confirm"
+}

@@ -1,0 +1,310 @@
+{
+  "title": "Kalkulačka prepitného",
+  "amount_placeholder": "Zadaj sumu",
+  "input_placeholder": "Zadaj sumu",
+  "custom": "Vlastné",
+  "tip_amount": "Platba",
+  "total_amount": "Spolu",
+  "tip_percent": "Prepitné",
+  "pick_tip_percentage": "Zvoľ %",
+  "submit_tip": "Potvrď prepitné",
+  "get_advice": "Získať radu",
+  "badge_unlocked_title": "Odznak získaný!",
+  "tip_submitted": "Prepitné potvrdené",
+  "welcome_subtitle": "Začnime s niekoľkými nastaveniami, aby sme vám prispôsobili používateľský zážitok.",
+  "choose_username": "Používateľské meno",
+  "choose_language": "Zvoľte jazyk",
+  "choose_currency": "Zvoľte menu",
+  "choose_theme": "Zvoľte tému",
+  "start": "Pridaj prvé prepitné",
+
+  "split_between": "Rozdeliť medzi",
+  "per_person": "na osobu",
+  "menu_title": "Menu",
+  "menu_calculator": "Kalkulačka prepitného",
+  "menu_badges": "Odznaky",
+  "menu_overview": "Prehľad",
+  "menu_settings": "Nastavenia",
+  "menu_feedback": "Odoslať spätnú väzbu",
+  "menu_rate_us": "Ohodnotiť nás",
+  "menu_terms": "Podmienky používania",
+  "menu_privacy": "Ochrana osobných údajov",
+
+  "tip_count": "Počet prepitných",
+  "total_tips": "Celkové prepitné",
+  "best_tip": "Najlepšie prepitné",
+  "welcome_title": "Vitajte v JustTip",
+  "username_title": "Meno",
+  "welcome_explainer": "JustTip uľahčuje rozdeľovanie účtov a výpočet tipov rýchlo a jednoducho.",
+  "language_explainer": "Vyberte si preferovaný jazyk pre aplikáciu.",
+  "currency_explainer": "Zvoľte menu, ktorú chcete použiť pre prepitné.",
+  "username_explainer": "Zadajte svoje používateľské meno, aby sme vám prispôsobili zážitok. (Voliteľné, môžete zadať neskôr)",
+  "username_placeholder": "Zadajte  meno",
+  "default_percentage": "Predvolené %",
+  "percentage_explainer": "Nastavte svoje predvolené percento pre prepitné pre rýchle výpočty.",
+  "percentage_placeholder": "Hodnota 0-100%",
+  "theme_explainer": "Vyberte farby aplikácie, ktoré vám najviac vyhovujú.",
+  "summary": "Zhrnutie",
+  "username": "Používateľské meno",
+  "currency": "Mena",
+  "theme": "Téma",
+  "language": "Jazyk",
+  "finish": "Dokončiť",
+  "next": "Ďalej",
+  "skip": "Preskočiť",
+  "back": "Späť",
+
+  "badges_title": "Odznaky",
+  "badges_unlocked": "odomknutých odznakov",
+  "all": "Všetky",
+  "unlocked": "Odomknuté",
+  "locked": "Zamknuté",
+  "overview_title": "Prehľad",
+  "badges": {
+    "one_tip": {
+      "name": "Prvý tip",
+      "description": "Daj svoje úplne prvé prepitné."
+    },
+    "five_tips": {
+      "name": "Päť tipov",
+      "description": "Daj prepitné 5x."
+    },
+    "ten_tips": {
+      "name": "Desať tipov",
+      "description": "Daj prepitné 10x."
+    },
+    "twenty_tips": {
+      "name": "20 tipov",
+      "description": "Daj prepitné 20x."
+    },
+    "fifty_tips": {
+      "name": "50 a viac tipov",
+      "description": "Daj prepitné 50x a viac."
+    },
+    "tip_5_percent": {
+      "name": "Tip 5%",
+      "description": "Daj prepitné 5%."
+    },
+    "tip_10_percent": {
+      "name": "Tip 10%",
+      "description": "Daj prepitné 10%."
+    },
+    "tip_15_percent": {
+      "name": "Tip 15%",
+      "description": "Daj prepitné 15%."
+    },
+    "tip_20_percent": {
+      "name": "Tip 20%+",
+      "description": "Daj prepitné 20%."
+    },
+    "tip_2_amount": {
+      "name": "Tip aspoň 2",
+      "description": "Výška prepitného je aspoň 2."
+    },
+    "tip_5_amount": {
+      "name": "Tip aspoň 5",
+      "description": "Výška prepitného je aspoň 5."
+    },
+    "tip_10_amount": {
+      "name": "Tip aspoň 10",
+      "description": "Výška prepitného je aspoň 7."
+    },
+    "tip_more_than_amount": {
+      "name": "Štedré prepitné!",
+      "description": "Výška prepitného je vyššia alebo rovná 35%."
+    },
+    "level_1": {
+      "name": "Level 1  Nováčik",
+      "description": "Daj 5 rôznych prepitných."
+    },
+    "level_2": {
+      "name": "Level 2  Pokročilý",
+      "description": "Daj 10 rôznych prepitných."
+    },
+    "level_3": {
+      "name": "Level 3  Legenda",
+      "description": "Daj 15 rôznych prepitných."
+    },
+    "used_1_minute": {
+      "name": "1 minúta používania",
+      "description": "Používaj aplikáciu aspoň 1 minútu."
+    },
+    "used_5_minutes": {
+      "name": "5 minút používania",
+      "description": "Používaj aplikáciu aspoň 5 minút."
+    },
+    "used_30_minutes": {
+      "name": "30 minút používania",
+      "description": "Používaj aplikáciu aspoň 30 minút."
+    },
+    "used_1_hour": {
+      "name": "1 hodina používania",
+      "description": "Používaj aplikáciu aspoň 1 hodinu."
+    }
+  },
+  "view_table": "Detailná tabuľka",
+  "view_cards": "Karty",
+
+  "tour_sum": "Vlož výšku platby.",
+  "tour_split": "Rozdeľ medzi počet ľudí.",
+  "tour_%": "Zvoľ % prepitného.",
+  "tour_submit": "Potvrď prepitné.",
+  "terms": {
+    "title": "Podmienky používania",
+    "paragraph1": "Tieto podmienky platia pre aplikáciu JustTip – Kalkulačka prepitného a rozdeľovania (ďalej len „Aplikácia“) pre mobilné zariadenia, ktorú vytvoril marroos (ďalej len „Poskytovateľ služby“) ako bezplatnú službu.",
+    "paragraph2": "Stiahnutím alebo používaním Aplikácie automaticky súhlasíte s týmito podmienkami. Dôrazne odporúčame si tieto podmienky dôkladne prečítať a pochopiť ich pred používaním Aplikácie. Neoprávnené kopírovanie, úprava Aplikácie, jej časti alebo našich ochranných známok je prísne zakázané. Pokusy o získanie zdrojového kódu Aplikácie, jej preklad do iných jazykov alebo vytváranie odvodených verzií nie sú povolené. Všetky ochranné známky, autorské práva, práva na databázy a iné práva duševného vlastníctva súvisiace s Aplikáciou zostávajú majetkom Poskytovateľa služby.",
+    "paragraph3": "Poskytovateľ služby sa snaží zabezpečiť, aby bola Aplikácia čo najviac užitočná a efektívna. Vyhradzuje si právo kedykoľvek Aplikáciu upraviť alebo účtovať poplatky z akéhokoľvek dôvodu. Všetky poplatky budú jasne oznámené.",
+    "paragraph4": "Aplikácia ukladá a spracováva osobné údaje, ktoré ste poskytli Poskytovateľovi služby, aby mohla poskytovať službu. Je vašou zodpovednosťou zabezpečiť bezpečnosť svojho telefónu a prístup k Aplikácii. Poskytovateľ služby dôrazne neodporúča jailbreakovať alebo rootovať telefón, čo znamená odstránenie softvérových obmedzení oficiálneho operačného systému vášho zariadenia. Takéto kroky môžu vystaviť telefón škodlivému softvéru, vírusom, ohroziť bezpečnostné funkcie telefónu a môžu spôsobiť nesprávnu funkčnosť alebo úplné zlyhanie Aplikácie.",
+    "thirdPartyTitle": "Upozorňujeme, že Aplikácia využíva služby tretích strán, ktoré majú vlastné Podmienky používania. Nižšie sú odkazy na Podmienky týchto poskytovateľov služieb:",
+    "googleAnalytics": "Google Analytics for Firebase",
+    "expo": "Expo",
+    "paragraph5": "Majte prosím na pamäti, že Poskytovateľ služby nenesie zodpovednosť za niektoré aspekty. Niektoré funkcie Aplikácie vyžadujú aktívne internetové pripojenie, ktoré môže byť cez Wi-Fi alebo mobilnú sieť. Poskytovateľ služby nemôže byť zodpovedný, ak Aplikácia nefunguje naplno kvôli nedostupnosti Wi-Fi alebo vyčerpaniu dátového limitu.",
+    "paragraph6": "Ak používate aplikáciu mimo Wi-Fi siete, platia vám podmienky vášho mobilného operátora. Môžete teda byť účtovaní za dáta počas používania aplikácie, vrátane poplatkov za roaming, ak používate aplikáciu mimo domovského regiónu či krajiny bez vypnutého dátového roamingu. Ak nie ste platiteľom účtu zariadenia, predpokladá sa, že máte jeho súhlas.",
+    "paragraph7": "Rovnako Poskytovateľ služby nemôže prevziať plnú zodpovednosť za váš spôsob používania aplikácie. Napríklad je na vás, aby ste mali zariadenie nabité. Ak sa vám vybije batéria a nemôžete službu používať, Poskytovateľ služby za to nezodpovedá.",
+    "paragraph8": "Poskytovateľ služby sa snaží zabezpečiť, aby bola aplikácia vždy aktuálna a presná, ale spolieha sa na tretie strany pre poskytovanie údajov, ktoré sú vám sprístupňované. Poskytovateľ služby nezodpovedá za akékoľvek priame alebo nepriame škody spôsobené závislosťou výhradne na tejto funkčnosti aplikácie.",
+    "paragraph9": "Poskytovateľ služby môže aplikáciu kedykoľvek aktualizovať. Operačné systémy (a ďalšie systémy, na ktoré sa môže aplikácia rozšíriť) sa môžu meniť, a preto budete musieť stiahnuť aktualizácie, ak chcete aplikáciu ďalej používať. Poskytovateľ služby nezaručuje, že aplikácia bude vždy kompatibilná s vaším zariadením alebo jeho verziou operačného systému. Súhlasíte však, že vždy prijmete aktualizácie, keď vám budú ponúknuté. Poskytovateľ služby môže tiež ukončiť poskytovanie aplikácie kedykoľvek bez predchádzajúceho upozornenia. Po ukončení (a) skončia všetky práva a licencie vám udelené v týchto podmienkach, (b) musíte prestať aplikáciu používať a ak je to potrebné, odstrániť ju zo svojho zariadenia.",
+    "changesTitle": "Zmeny týchto podmienok",
+    "paragraph11": "Poskytovateľ služby môže pravidelne aktualizovať tieto Podmienky používania. Odporúčame vám preto pravidelne kontrolovať túto stránku na prípadné zmeny. O každej zmene vás budeme informovať zverejnením nových podmienok na tejto stránke.",
+    "effectiveDate": "Tieto podmienky sú platné od 16.07.2025",
+    "contactTitle": "Kontaktujte nás",
+    "contactEmail": "Ak máte otázky alebo návrhy týkajúce sa týchto Podmienok používania, neváhajte kontaktovať Poskytovateľa služby na maros1chmel@gmail.com.",
+    "footer": "Túto stránku Podmienok použitia vygeneroval",
+    "footer_link": {
+      "text": "App Privacy Policy Generator",
+      "url": "https://app-privacy-policy-generator.nisrulz.com/"
+    }
+  },
+  "privacy": {
+    "title": "Zásady ochrany osobných údajov",
+    "intro": "Tieto zásady ochrany osobných údajov sa vzťahujú na aplikáciu JustTip – Tip & Split Calculator (ďalej len „Aplikácia“) pre mobilné zariadenia, ktorú vyvinul marroos (ďalej len „Poskytovateľ služby“) ako bezplatnú službu. Táto služba je poskytovaná \"TAK, AKO JE\".",
+
+    "subtitle1": "Aké informácie Aplikácia získava a ako ich používa?",
+
+    "subtitle2": "Informácie poskytnuté používateľom",
+    "paragraph2_1": "Aplikácia získava informácie, ktoré poskytnete pri stiahnutí a registrácii Aplikácie. Registrácia u Poskytovateľa služby nie je povinná. Majte však na pamäti, že nemusíte mať prístup ku všetkým funkciám Aplikácie, pokiaľ sa nezaregistrujete.",
+    "paragraph2_2": "Poskytovateľ služby môže použiť poskytnuté informácie na občasný kontakt s vami s cieľom poskytnúť dôležité informácie, povinné oznámenia a marketingové ponuky.",
+
+    "subtitle3": "Automaticky zbierané informácie",
+    "paragraph3": "Aplikácia môže tiež automaticky zbierať určité informácie, vrátane, ale nie výlučne, typu mobilného zariadenia, jedinečného ID zariadenia, IP adresy mobilného zariadenia, operačného systému, typu internetového prehliadača a informácií o spôsobe používania Aplikácie.",
+
+    "subtitle4": "Zbiera Aplikácia presné údaje o polohe zariadenia v reálnom čase?",
+    "paragraph4": "Táto Aplikácia nezbiera presné informácie o polohe vášho mobilného zariadenia.",
+
+    "subtitle5": "Majú tretie strany prístup k informáciám získaným Aplikáciou?",
+    "paragraph5_1": "Len agregované, anonymizované údaje sú pravidelne odosielané externým službám, aby pomohli Poskytovateľovi služby zlepšovať Aplikáciu a jej služby. Poskytovateľ služby môže zdieľať vaše informácie s tretími stranami spôsobmi opísanými v týchto zásadách ochrany osobných údajov.",
+    "paragraph5_2": "Upozorňujeme, že Aplikácia používa služby tretích strán, ktoré majú vlastné zásady ochrany osobných údajov. Nižšie sú odkazy na zásady ochrany osobných údajov týchto poskytovateľov služieb:",
+    "thirdPartyLink1_name": "Google Analytics for Firebase",
+    "thirdPartyLink1_url": "https://firebase.google.com/support/privacy",
+    "thirdPartyLink2_name": "Expo",
+    "thirdPartyLink2_url": "https://expo.io/privacy",
+    "disclosureList_1": "ako to vyžaduje zákon, napríklad na splnenie predvolania alebo podobného právneho procesu;",
+    "disclosureList_2": "keď v dobrej viere veria, že zverejnenie je nevyhnutné na ochranu ich práv, ochranu vašej bezpečnosti alebo bezpečnosti iných, vyšetrovanie podvodu alebo reakciu na požiadavku vlády;",
+    "disclosureList_3": "s dôveryhodnými poskytovateľmi služieb, ktorí konajú v ich mene, nemajú nezávislé použitie zverejnených informácií a súhlasia s dodržiavaním pravidiel stanovených v týchto zásadách ochrany osobných údajov.",
+
+    "subtitle6": "Aké mám práva na odhlásenie?",
+    "paragraph6": "Zhromažďovanie všetkých informácií Aplikáciou môžete jednoducho zastaviť odinštalovaním Aplikácie. Môžete použiť štandardné procesy odinštalovania dostupné vo vašom mobilnom zariadení alebo prostredníctvom trhu s aplikáciami.",
+
+    "subtitle7": "Zásady uchovávania údajov, správa vašich informácií",
+    "paragraph7": "Poskytovateľ služby bude uchovávať údaje poskytnuté používateľom tak dlho, ako používate Aplikáciu, a primeraný čas po tom. Automaticky zbierané informácie budú uchovávané až 24 mesiacov a potom môžu byť uložené v agregovanej forme. Ak si želáte, aby Poskytovateľ služby vymazal údaje, ktoré ste poskytli cez Aplikáciu, kontaktujte ich na maros1chmel@gmail.com a odpovieme vám v primeranom čase. Niektoré alebo všetky údaje poskytnuté používateľom môžu byť potrebné na správne fungovanie Aplikácie.",
+
+    "subtitle8": "Deti",
+    "paragraph8_1": "Poskytovateľ služby nevyužíva Aplikáciu na úmyselné získavanie údajov od alebo marketing voči deťom mladším ako 13 rokov.",
+    "paragraph8_2": "Aplikácia nie je určená pre osoby mladšie ako 13 rokov. Poskytovateľ služby vedome nezbiera osobne identifikovateľné informácie od detí do 13 rokov. Ak Poskytovateľ služby zistí, že dieťa mladšie ako 13 rokov poskytlo osobné informácie, okamžite ich zmaže zo svojich serverov. Ak ste rodič alebo zákonný zástupca a viete, že vaše dieťa nám poskytlo osobné informácie, kontaktujte Poskytovateľa služby (maros1chmel@gmail.com), aby mohli podniknúť potrebné kroky.",
+
+    "subtitle9": "Bezpečnosť",
+    "paragraph9": "Poskytovateľ služby sa stará o ochranu dôvernosti vašich informácií. Poskytovateľ poskytuje fyzické, elektronické a procesné opatrenia na ochranu informácií, ktoré spracúvame a uchovávame. Napríklad prístup k týmto informáciám je obmedzený na autorizovaných zamestnancov a dodávateľov, ktorí tieto informácie potrebujú na prevádzku, vývoj alebo zlepšovanie Aplikácie. Uvedomte si, že napriek našim snahám zabezpečiť primeranú ochranu, žiadny bezpečnostný systém nemôže zabrániť všetkým možným bezpečnostným incidentom.",
+
+    "subtitle10": "Zmeny",
+    "paragraph10": "Tieto Zásady ochrany osobných údajov môžu byť čas od času aktualizované z rôznych dôvodov. Poskytovateľ služby vás o každej zmene oznámi aktualizáciou tejto stránky s novými Zásadami ochrany osobných údajov. Odporúčame vám pravidelne kontrolovať tieto zásady, pretože ďalším používaním Aplikácie súhlasíte so všetkými zmenami.",
+
+    "effectiveDate": "Tieto zásady ochrany osobných údajov sú účinné od 16.07.2025",
+
+    "subtitle11": "Váš súhlas",
+    "paragraph11": "Používaním Aplikácie dávate súhlas Poskytovateľovi služby so spracovaním vašich informácií podľa týchto Zásad ochrany osobných údajov, teraz i v budúcnosti. \"Spracovanie\" znamená používanie cookies na počítači/mobilnom zariadení alebo akékoľvek použitie alebo manipuláciu s informáciami, vrátane, ale nie výlučne, zhromažďovania, ukladania, mazania, používania, kombinovania a zverejňovania informácií.",
+
+    "subtitle12": "Kontaktujte nás",
+    "paragraph12": "Ak máte akékoľvek otázky týkajúce sa ochrany súkromia počas používania Aplikácie alebo otázky o praktikách, kontaktujte Poskytovateľa služby na e-mailovej adrese maros1chmel@gmail.com.",
+
+    "footer": "Táto stránka zásad ochrany osobných údajov bola vygenerovaná pomocou",
+    "footerLink": {
+      "text": "App Privacy Policy Generator",
+      "url": "https://app-privacy-policy-generator.nisrulz.com/"
+    }
+  },
+  "feedback": {
+    "title": "Spätná väzba",
+    "placeholder_subject": "Predmet (napr. Bug, Nápad...)",
+    "placeholder_message": "Napíš svoju správu...",
+    "send": "Odoslať",
+    "cancel": "Zrušiť",
+    "thank_you_title": "Ďakujeme!",
+    "thank_you_message": "Feedback bol úspešne odoslaný.",
+    "error_title": "Chyba",
+    "error_message": "Nepodarilo sa odoslať feedback.",
+    "wait_title": "Počkajte prosím",
+    "wait_message": "Feedback môžete poslať až po 1 minúte.",
+    "required_subject": "Predmet je povinný",
+    "required_message": "Správa je povinná"
+  },
+  "personal_settings": "Osobné nastavenia",
+
+  "tipping_style": "Tipovacie zvyklosti",
+  "tipping_none": "Žiadne",
+  "tipping_mandatory": "Povinné sprepitné (napr. USA, Kanada)",
+  "tipping_optional": "Nepovinné sprepitné (napr. Európa, Ázia)",
+  "enable_tour": "Povoliť sprievodcu",
+  "theme_mode": "Téma a režim",
+  "mode": "Režim",
+  "tip_message": "Odporúčané prepitné je ",
+
+  "tab_graph": "Graf",
+  "tab_history": "História",
+  "filter": {
+    "dateAsc": "Dátum",
+    "dateDesc": "Dátum",
+    "tipAsc": "Prepitné",
+    "tipDesc": "Prepitné"
+  },
+  "chart": {
+    "totalPayment": "Posledných 5 účtov",
+    "totalTip": "Posledných 5 prepitných",
+    "topTips": "Top 5 prepitných"
+  },
+  "badge_unlocked_cancel": "Zavrieť",
+  "last3": {
+    "last3_noTips": "Pridajte svoje prvé prepitné",
+    "last3_link": "Zobraziť všetko",
+    "last3_title": "Posledné prepitné"
+  },
+  "chartList": {
+    "listEmpty": "Zatiaľ ste nepridali žiadne prepitné.",
+    "chartEmpty": "Váš graf je prázdny.",
+    "chartTitle": "Posledné záznamy"
+  },
+  "settings": {
+    "title": "Nastavenia",
+    "subtitle": "Spravujte preferencie aplikácie"
+  },
+  "numsheetTip": {
+    "title": "Percento prepitného",
+    "desc": "Zadaj číslo od 0 po 100"
+  },
+  "numsheetSplit": {
+    "title": "Rozdeľ medzi",
+    "desc": "Zadaj číslo od 1 po 100"
+  },
+  "consent_link": "Pokračovaním súhlasíte s podmienkami a ochranou súkromia",
+  "consent_continue": "Pokračovať",
+  "swipe_to_see_more": "Potiahnutím zobrazíte viac",
+  "greeting": "Ahoj, ",
+  "no_badges_unlocked": "Nenašli sa žiadne badges.",
+  "settings_title": "Nastavenia",
+  "language_label": "Jazyk",
+  "theme_label": "Téma",
+  "light_mode": "Svetlá",
+  "dark_mode": "Tmavá",
+  "close": "Zavrieť",
+  "onboarding_prompt": "Ako ťa máme volať?",
+  "your_name": "Tvoje meno",
+  "confirm": "Potvrdiť"
+}
