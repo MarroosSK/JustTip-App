@@ -1,5 +1,5 @@
 import AppText from "@/components/AppText";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -29,9 +29,8 @@ const UsernameModal = ({ visible, onClose }: UsernameModalProps) => {
     }
   };
 
-  // dynamické farby podľa themeMode
-  const inputTextColor = themeMode === "dark" ? "#e4e4e4" : "#454545"; // z tailwind config
-  const inputBorderColor = themeMode === "dark" ? "#3f3f46" : "#d1d5db"; // dark/subtleDark, light/gray-300
+  const inputTextColor = themeMode === "dark" ? "#e4e4e4" : "#454545";
+  const inputBorderColor = themeMode === "dark" ? "#3f3f46" : "#d1d5db";
 
   return (
     <Modal

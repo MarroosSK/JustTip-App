@@ -1,7 +1,7 @@
 export function formatNumber(
   value: number,
-  locale?: string, // ak nie je zadané, použije sa automaticky lokalita zariadenia
-  currency?: string // voliteľne symbol meny
+  locale?: string,
+  currency?: string
 ): string {
   const userLocale = locale ?? Intl.DateTimeFormat().resolvedOptions().locale;
 

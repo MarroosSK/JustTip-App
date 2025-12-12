@@ -1,12 +1,12 @@
 import ConsentModal from "@/components/modals/ConsentModal";
 import { BadgeProvider } from "@/context/BadgeContext";
-import { SettingsProvider, useSettings } from "@/context/settings-context";
-import { TipStatsProvider } from "@/context/tips-context";
+import { SettingsProvider, useSettings } from "@/context/SettingsContext";
+import { TipStatsProvider } from "@/context/TipsContext";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as NavigationBar from "expo-navigation-bar";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
-import { useColorScheme } from "nativewind"; // 🟢 toto je správne v 3.x
+import { useColorScheme } from "nativewind";
 import React, { useEffect, useState } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { SafeAreaProvider } from "react-native-safe-area-context";
@@ -17,11 +17,11 @@ SplashScreen.preventAutoHideAsync();
 
 const NavigationBarController = () => {
   const { themeMode } = useSettings();
-  const { setColorScheme } = useColorScheme(); // 🟢 hook z NativeWind
+  const { setColorScheme } = useColorScheme();
 
   useEffect(() => {
     const setNavBar = async () => {
-      await NavigationBar.setBackgroundColorAsync("transparent"); // translucent
+      await NavigationBar.setBackgroundColorAsync("transparent");
       await NavigationBar.setButtonStyleAsync(
         themeMode === "dark" ? "light" : "dark"
       );
@@ -29,7 +29,6 @@ const NavigationBarController = () => {
     };
     setNavBar();
 
-    // 🟢 nastavíme dark/light pre NativeWind
     setColorScheme(themeMode === "dark" ? "dark" : "light");
   }, [themeMode]);
 
@@ -79,7 +78,6 @@ export default function LayoutWrapper() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <TipStatsProvider>
         <SettingsProvider>
-          {/* Presunieme NavigationBarController sem ⤵️ */}
           <NavigationBarController />
           <BadgeProvider>
             <SafeAreaProvider>

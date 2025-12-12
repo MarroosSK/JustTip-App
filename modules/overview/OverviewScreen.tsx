@@ -1,12 +1,11 @@
 import AppText from "@/components/AppText";
 import { ChartContainer } from "@/components/charts/ChartContainer";
-import { useSettings } from "@/context/settings-context";
-import { useTipStats } from "@/context/tips-context";
+import { useSettings } from "@/context/SettingsContext";
+import { useTipStats } from "@/context/TipsContext";
 import LottieView from "lottie-react-native";
 import React, { useCallback, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { View } from "react-native"; // Importuj Text
-import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { View } from "react-native";
 import { MemoizedChart } from "./MemoizedChart";
 import OverviewHistoryContent from "./OverviewHistoryContent";
 import OverviewHistoryFilter, { FilterSortType } from "./OverviewHistoryFilter";
@@ -22,7 +21,6 @@ function formatDateSimple(timestamp: number) {
 const PAGE_SIZE = 5;
 
 const OverviewScreen = () => {
-  const insets = useSafeAreaInsets();
   const { totalTips, tipHistory, tipCount, bestTip } = useTipStats();
   const { t } = useTranslation();
   const { currency } = useSettings();
@@ -54,7 +52,7 @@ const OverviewScreen = () => {
   const chartData = useMemo(() => {
     const lastTen = filteredTips.slice(0, 10);
     const mapped = lastTen.map((tip) => {
-      const value = Number(tip.amount) || 0; // 👈 len tip, nie bill + tip
+      const value = Number(tip.amount) || 0; // len tip, nie bill + tip
       const label = formatDateSimple(tip.timestamp);
       return { x: label, y: Math.round(value * 100) / 100, label };
     });
@@ -85,7 +83,6 @@ const OverviewScreen = () => {
         t={t}
       />
       <View className="flex-1 my-6">
-        {/* Kontrola a podmienené vykresľovanie */}
         {filteredTips.length === 0 ? (
           <View className="flex-1 items-center justify-center mt-6">
             <AppText className="text-center text-text-primaryLight dark:text-text-primaryDark">

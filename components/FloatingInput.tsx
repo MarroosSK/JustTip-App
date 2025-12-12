@@ -1,4 +1,4 @@
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { X } from "lucide-react-native";
 import React, { useEffect, useRef, useState } from "react";
 import { Keyboard, Platform, Pressable, TextInput, View } from "react-native";
@@ -72,13 +72,12 @@ export function FloatingInput({
   const handleFocus = () => {
     setIsInputFocused(true);
     onFocusChange?.(id);
-    // Hneď posuň input podľa aktuálnej klávesnice
+
     keyboardOffset.value = withTiming(keyboardHeight + 16, { duration: 250 });
   };
 
   const handleBlur = () => {
     setIsInputFocused(false);
-    // reset handled in keyboardWillHideListener
   };
 
   return (

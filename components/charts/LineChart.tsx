@@ -1,4 +1,4 @@
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import React, { useEffect, useState } from "react";
 import { LayoutChangeEvent, View, ViewStyle } from "react-native";
 import Animated, {
@@ -41,10 +41,7 @@ export const LineChart = ({ data, config = {}, style }: Props) => {
   const [width, setWidth] = useState(300);
   const { themeMode } = useSettings();
   const isLightMode = themeMode === "light";
-
   const lineColor = isLightMode ? "#454545" : "#e4e4e4";
-
-  // Gradient použije farbu bg card pre cool efekt
   const gradientColor = isLightMode ? "#F2F2F2" : "#27272a";
 
   const {
@@ -57,7 +54,7 @@ export const LineChart = ({ data, config = {}, style }: Props) => {
     yLabelCount = 5,
     showXLabels = true,
     showPointValues = true,
-    showGrid = false, // grid vypnutý
+    showGrid = false,
   } = config;
 
   const animationProgress = useSharedValue(0);
@@ -90,7 +87,6 @@ export const LineChart = ({ data, config = {}, style }: Props) => {
     return path;
   };
 
-  // Area path – iba do spodku chartu (padding + chartHeight)
   const areaPath = gradient
     ? createPath(points) +
       ` L${points[points.length - 1].x},${padding + chartHeight} ` +
@@ -136,7 +132,7 @@ export const LineChart = ({ data, config = {}, style }: Props) => {
           animatedProps={lineProps}
         />
 
-        {/* Points a hodnoty */}
+        {/* Points and values */}
         {points.map((p, i) => (
           <React.Fragment key={`point-${i}`}>
             <Circle cx={p.x} cy={p.y} r={3} fill={lineColor} />

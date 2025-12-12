@@ -1,5 +1,5 @@
 import AppText from "@/components/AppText";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { sendFeedback } from "@/services/feedback";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import React, { useEffect, useState } from "react";
@@ -86,9 +86,8 @@ export default function FeedbackScreen() {
       });
   };
 
-  const inputBg = isDark ? "#1f1f1f" : "#f3f3f3"; // bg-card
-  const inputBorder = isDark ? "#333" : "#ddd"; // jemný border
-  const buttonBg = isDark ? "#1f1f1f" : "#f3f3f3"; // bg-card
+  const inputBg = isDark ? "#1f1f1f" : "#f3f3f3";
+  const inputBorder = isDark ? "#333" : "#ddd";
   const buttonTextColor = isDark ? "#e4e4e4" : "#454545";
 
   return (

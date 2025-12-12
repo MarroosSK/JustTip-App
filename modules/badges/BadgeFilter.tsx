@@ -1,5 +1,5 @@
 import AppText from "@/components/AppText";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Dimensions, Pressable, View } from "react-native";
@@ -23,28 +23,22 @@ export default function BadgeFilter({ filter, setFilter }: BadgeFilterProps) {
   const tabs = ["all", "unlocked", "locked"];
   const tabWidth = screenWidth / tabs.length;
 
-  // Shared value pre pozíciu indikátora
   const indicatorX = useSharedValue(0);
 
-  // Aktualizujeme pozíciu indikátora pri zmene filtra
   useEffect(() => {
     const index = tabs.indexOf(filter);
     indicatorX.value = withTiming(tabWidth * index, { duration: 250 });
   }, [filter]);
 
-  // Animated style pre indikátor
   const animatedIndicatorStyle = useAnimatedStyle(() => {
     return {
       transform: [{ translateX: indicatorX.value }],
     };
   });
-
-  // Farba indikátora podľa módu
   const indicatorColor = isDark ? "#fff" : "#000";
 
   return (
     <View style={{ width: "100%", position: "relative" }}>
-      {/* Tlačidlá */}
       <View className="flex-row">
         {tabs.map((type) => {
           const isActive = filter === type;
@@ -76,7 +70,6 @@ export default function BadgeFilter({ filter, setFilter }: BadgeFilterProps) {
         })}
       </View>
 
-      {/* Indikátor */}
       <Animated.View
         style={[
           {

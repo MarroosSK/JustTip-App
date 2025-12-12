@@ -17,7 +17,7 @@ export const BadgeProvider = ({ children }: { children: ReactNode }) => {
 
   const setFilter = (val: FilterType) => {
     setFilterState(val);
-    setSelectedBadgeId(null); // reset frame aj sheet pri zmene filtra
+    setSelectedBadgeId(null);
   };
 
   return (
@@ -29,7 +29,6 @@ export const BadgeProvider = ({ children }: { children: ReactNode }) => {
   );
 };
 
-// Custom hook pre jednoduchšie používanie
 export const useBadgeContext = () => {
   const context = useContext(BadgeContext);
   if (!context) {

@@ -1,9 +1,9 @@
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { ScrollView, View } from "react-native";
 
-import { useTipStats } from "@/context/tips-context";
+import { useTipStats } from "@/context/TipsContext";
 
 import AppText from "@/components/AppText";
 import { useBadgeContext } from "@/context/BadgeContext";
@@ -97,7 +97,7 @@ export default function BadgesScreen() {
         <BadgeModal
           badges={filteredBadges}
           t={t}
-          visible={modalVisible} // <-- pridáme túto prop
+          visible={modalVisible}
           onClose={closeModal}
         />
       )}

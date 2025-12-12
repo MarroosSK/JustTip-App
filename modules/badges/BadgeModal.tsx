@@ -1,6 +1,6 @@
 import AppText from "@/components/AppText";
 import { useBadgeContext } from "@/context/BadgeContext";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { Lock } from "lucide-react-native";
 import React from "react";
 import {

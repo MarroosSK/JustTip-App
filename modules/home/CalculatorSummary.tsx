@@ -1,5 +1,5 @@
 import AppText from "@/components/AppText";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { currencies } from "@/data/data";
 import { formatNumber } from "@/utils/format-number";
 import {
@@ -47,7 +47,7 @@ export default function CalculatorSummary({
 
   return (
     <View className="mt-0 w-full relative">
-      {/* Box so sumárnymi údajmi */}
+      {/* Summary */}
       <View
         className={`p-6 rounded-2xl w-full ${
           isDark ? "bg-bg-cardDark" : "bg-bg-cardLight"
@@ -71,7 +71,6 @@ export default function CalculatorSummary({
           {formatNumber(totalRounded)}
         </AppText>
 
-        {/* spodný riadok – absolútne umiestnený */}
         <View
           className="absolute left-4 right-4"
           style={{
@@ -125,7 +124,6 @@ export default function CalculatorSummary({
       <View className="absolute right-3 top-0 items-center space-y-2">
         {amount !== 0 && (
           <>
-            {/* Arrow Up */}
             <Pressable
               onPress={() => handleRoundingPress("up")}
               android_ripple={{ color: "#00000020", borderless: true }}
@@ -136,16 +134,15 @@ export default function CalculatorSummary({
                 color={
                   roundingMode === "up"
                     ? isDark
-                      ? "#ffffff" // aktívna v dark mode
-                      : "#000000" // aktívna v light mode
+                      ? "#ffffff"
+                      : "#000000"
                     : isDark
-                    ? "#e4e4e4" // neaktívna v dark mode
-                    : "#333333" // neaktívna v light mode
+                    ? "#e4e4e4"
+                    : "#333333"
                 }
               />
             </Pressable>
 
-            {/* X – defaultne aktívne */}
             <Pressable
               onPress={() => handleRoundingPress("none")}
               android_ripple={{ color: "#00000020", borderless: true }}

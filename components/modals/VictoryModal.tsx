@@ -40,7 +40,6 @@ const VictoryModal = ({ visible, badges, onClose }: VictoryModalProps) => {
         {visible && <LiteConfetti visible={visible} />}
 
         <View className="items-center w-full">
-          {/* Lottie Animation */}
           <LottieView
             source={require("@/assets/Trophy.json")}
             autoPlay
@@ -54,7 +53,7 @@ const VictoryModal = ({ visible, badges, onClose }: VictoryModalProps) => {
           >
             {t("badge_unlocked_title")}
           </Text>
-          {/* Horizontal ScrollView for badges */}
+
           <ScrollView
             horizontal
             showsHorizontalScrollIndicator={false}
@@ -70,7 +69,7 @@ const VictoryModal = ({ visible, badges, onClose }: VictoryModalProps) => {
               <View
                 key={badge.id}
                 style={{
-                  width: 100, // Fixed width for each badge to prevent stretching
+                  width: 100,
                   alignItems: "center",
                 }}
               >
@@ -98,7 +97,7 @@ const VictoryModal = ({ visible, badges, onClose }: VictoryModalProps) => {
               {t("swipe_to_see_more")}
             </AppText>
           )}
-          {/* Close button */}
+
           <Pressable
             onPress={onClose}
             style={{

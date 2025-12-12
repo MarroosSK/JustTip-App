@@ -1,5 +1,5 @@
 import AppText from "@/components/AppText";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import * as Haptics from "expo-haptics";
 import { X } from "lucide-react-native";
 import React from "react";

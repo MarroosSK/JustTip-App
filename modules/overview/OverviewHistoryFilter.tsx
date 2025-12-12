@@ -1,5 +1,5 @@
 import AppText from "@/components/AppText";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { ArrowDown, ArrowUp } from "lucide-react-native";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -59,12 +59,10 @@ const OverviewHistoryFilter = ({ filterSort, setFilterSort }: Props) => {
             {options.map((opt) => {
               const Icon = opt.icon;
               const isActive = filterSort === opt.value;
-
-              // border a farba ikonky podľa módu
               const borderColor = isActive
                 ? isDark
-                  ? "#ffffff" // svetlý border v dark mode
-                  : "#000000" // tmavý border v light mode
+                  ? "#ffffff"
+                  : "#000000"
                 : "transparent";
 
               const iconColor = isActive

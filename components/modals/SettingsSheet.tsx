@@ -1,4 +1,4 @@
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { StatusBar } from "expo-status-bar";
 import * as LucideIcons from "lucide-react-native";
 import React from "react";
@@ -36,30 +36,24 @@ export const SettingsSheet = ({
       transparent
       statusBarTranslucent
     >
-      {/* StatusBar sa aktualizuje podľa themeMode */}
       <StatusBar
         style={themeMode === "dark" ? "light" : "dark"}
         backgroundColor="transparent"
         translucent
       />
 
-      {/* Full-screen overlay */}
       <TouchableOpacity
         activeOpacity={1}
         onPress={onClose}
         className="flex-1 bg-black/20"
       >
-        {/* Spacer aby overlay siahalo až hore cez status bar */}
         <View className="flex-1" />
-
-        {/* Bottom sheet */}
         <TouchableOpacity activeOpacity={1}>
           <View className="rounded-t-2xl p-6 bg-bg-cardLight dark:bg-bg-cardDark">
             <AppText className="text-lg font-bold mb-4 text-text-primaryLight dark:text-text-primaryDark">
               {t("settings_title")}
             </AppText>
 
-            {/* Language */}
             <AppText className="mb-2 text-text-secondaryLight dark:text-text-secondaryDark">
               {t("language_label")}
             </AppText>
@@ -95,7 +89,6 @@ export const SettingsSheet = ({
               ))}
             </View>
 
-            {/* Theme Mode */}
             <AppText className="mb-2 text-text-secondaryLight dark:text-text-secondaryDark">
               {t("theme_label")}
             </AppText>
@@ -133,7 +126,6 @@ export const SettingsSheet = ({
               ))}
             </View>
 
-            {/* Close button */}
             <TouchableOpacity
               onPress={onClose}
               className="w-full py-4 rounded-lg items-center bg-bg-dark dark:bg-bg-light"

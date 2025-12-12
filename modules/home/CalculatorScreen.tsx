@@ -1,6 +1,6 @@
 import VictoryModal from "@/components/modals/VictoryModal";
-import { useSettings } from "@/context/settings-context";
-import { useTipStats } from "@/context/tips-context";
+import { useSettings } from "@/context/SettingsContext";
+import { useTipStats } from "@/context/TipsContext";
 import { useTranslation } from "react-i18next";
 
 import AppText from "@/components/AppText";
@@ -24,7 +24,7 @@ type ActiveSheet = "tip" | "split" | null;
 
 export default function CalculatorScreen() {
   const { t } = useTranslation();
-  const { currency, defaultPercentage, username, themeMode } = useSettings();
+  const { currency, defaultPercentage, themeMode } = useSettings();
   const { addTip } = useTipStats();
 
   const [activeSheet, setActiveSheet] = useState<ActiveSheet>(null);

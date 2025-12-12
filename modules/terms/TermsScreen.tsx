@@ -22,12 +22,10 @@ const TermsScreen = () => {
       }}
     >
       <View className="flex-1">
-        {/* Title */}
         <AppText className="text-2xl  mt-2 mb-3 text-text-primaryLight dark:text-text-primaryDark">
           {t("terms.title")}
         </AppText>
 
-        {/* Paragraphs with secondary text color */}
         <AppText className="text-sm leading-6 mb-3 text-text-secondaryLight dark:text-text-secondaryDark">
           {t("terms.paragraph1")}
         </AppText>
@@ -41,12 +39,10 @@ const TermsScreen = () => {
           {t("terms.paragraph4")}
         </AppText>
 
-        {/* Third party title as paragraph (secondary text color) */}
         <AppText className="text-sm leading-6 mb-3 text-text-secondaryLight dark:text-text-secondaryDark">
           {t("terms.thirdPartyTitle")}
         </AppText>
 
-        {/* List */}
         <AppText className="ml-4 mb-3">
           <AppText
             className="text-blue-500 underline mb-2"
@@ -62,7 +58,6 @@ const TermsScreen = () => {
           </AppText>
         </AppText>
 
-        {/* More paragraphs */}
         <AppText className="text-sm leading-6 mb-3 text-text-secondaryLight dark:text-text-secondaryDark">
           {t("terms.paragraph5")}
         </AppText>
@@ -79,7 +74,6 @@ const TermsScreen = () => {
           {t("terms.paragraph9")}
         </AppText>
 
-        {/* Subtitle */}
         <AppText className="text-xl font-semibold mt-4 mb-2 text-text-primaryLight dark:text-text-primaryDark">
           {t("terms.changesTitle")}
         </AppText>

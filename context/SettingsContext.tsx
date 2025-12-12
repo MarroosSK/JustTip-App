@@ -111,11 +111,7 @@ export const SettingsProvider = ({
     i18n.changeLanguage(defaultSettings.language);
   };
 
-  // Dynamicky určujeme themeColor podľa themeMode a Tailwind farieb
-  const themeColor =
-    settings.themeMode === "dark"
-      ? "#161616" /* bg.dark */
-      : "#F9FAFB"; /* bg.light */
+  const themeColor = settings.themeMode === "dark" ? "#161616" : "#F9FAFB";
 
   return (
     <SettingsContext.Provider

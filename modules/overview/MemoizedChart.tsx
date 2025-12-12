@@ -19,6 +19,5 @@ const MemoizedAreaChart = ({ data }: { data: ChartDataPoint[] }) => {
   );
 };
 
-// Memoizovaná verzia
 export const MemoizedChart = React.memo(MemoizedAreaChart);
 MemoizedChart.displayName = "MemoizedChart";

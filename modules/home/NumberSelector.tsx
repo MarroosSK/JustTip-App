@@ -1,5 +1,5 @@
 import AppText from "@/components/AppText";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { Percent, Split } from "lucide-react-native";
 import React, { useEffect, useState } from "react";
 import {
@@ -66,10 +66,8 @@ export default function NumberSheetModal({
       statusBarTranslucent
       onRequestClose={onClose}
     >
-      {/* Overlay */}
       <Pressable style={styles.overlay} onPress={onClose} />
 
-      {/* Modal content */}
       <View
         style={[
           styles.modalContainer,
@@ -80,7 +78,6 @@ export default function NumberSheetModal({
           },
         ]}
       >
-        {/* Header */}
         <View
           style={{
             flexDirection: "row",
@@ -112,7 +109,6 @@ export default function NumberSheetModal({
           </View>
         </View>
 
-        {/* Number input */}
         <TextInput
           style={[
             styles.input,
@@ -138,7 +134,6 @@ export default function NumberSheetModal({
           placeholderTextColor={isDark ? "#a0a0a0" : "#999"}
         />
 
-        {/* Buttons */}
         <View
           style={{
             flexDirection: "row",

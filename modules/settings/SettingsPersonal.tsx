@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Text, TextInput, View } from "react-native";
 
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { currencies } from "@/data/data";
 import SettingsLanguagePicker from "@/modules/settings/SettingsLanguagePicker";
 import CustomDropdown from "./CustomDropDown";

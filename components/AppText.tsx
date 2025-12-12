@@ -1,11 +1,10 @@
-// components/AppText.tsx
 import React, { ReactNode } from "react";
 import { Text, TextProps, TextStyle } from "react-native";
 
 interface AppTextProps extends TextProps {
   children: ReactNode;
-  className?: string; // voliteľné, default ""
-  style?: TextStyle | TextStyle[]; // explicitne typované style
+  className?: string;
+  style?: TextStyle | TextStyle[];
 }
 
 export default function AppText({
@@ -15,11 +14,7 @@ export default function AppText({
   ...props
 }: AppTextProps) {
   return (
-    <Text
-      className={`font-inter ${className}`} // default font
-      style={style} // inline štýly sa aplikujú spolu s className
-      {...props}
-    >
+    <Text className={`font-inter ${className}`} style={style} {...props}>
       {children}
     </Text>
   );

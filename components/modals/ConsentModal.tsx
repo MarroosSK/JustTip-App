@@ -1,4 +1,4 @@
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -18,13 +18,12 @@ type ConsentPageProps = {
 };
 
 const ConsentPage = ({ onAccept }: ConsentPageProps) => {
-  const { themeMode } = useSettings(); // Zmeň z themeColor na themeMode
-  const { t, i18n } = useTranslation();
+  const { themeMode } = useSettings();
+  const { t } = useTranslation();
   const [sheetVisible, setSheetVisible] = useState(false);
 
   return (
     <View className="flex-1 bg-bg-light dark:bg-bg-dark">
-      {/* StatusBar reaguje na themeMode */}
       <StatusBar
         style={themeMode === "dark" ? "light" : "dark"}
         backgroundColor="transparent"
@@ -38,12 +37,10 @@ const ConsentPage = ({ onAccept }: ConsentPageProps) => {
           behavior={Platform.OS === "ios" ? "padding" : undefined}
           className="flex-1 justify-center items-center px-5"
         >
-          {/* Language Picker */}
           <View className="absolute top-5 right-5 z-50">
             <SettingsButton onPress={() => setSheetVisible(true)} />
           </View>
 
-          {/* Obsah */}
           <View className="flex-1 justify-center items-center px-5 gap-7">
             <AppText className="text-center text-text-primaryLight dark:text-text-primaryDark text-5xl font-bold mb-3">
               {t("welcome_title")}
@@ -54,7 +51,6 @@ const ConsentPage = ({ onAccept }: ConsentPageProps) => {
             </AppText>
           </View>
 
-          {/* Button */}
           <TouchableOpacity
             className="w-full py-4 rounded-lg items-center bg-bg-dark dark:bg-bg-light"
             onPress={onAccept}
@@ -64,7 +60,6 @@ const ConsentPage = ({ onAccept }: ConsentPageProps) => {
             </AppText>
           </TouchableOpacity>
 
-          {/* Link pod buttonom */}
           <AppText
             className="mt-2 mb-14 text-text-secondaryLight dark:text-text-secondaryDark text-xs text-center"
             onPress={() => Linking.openURL("#")}

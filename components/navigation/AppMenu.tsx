@@ -1,6 +1,4 @@
-import { useSettings } from "@/context/settings-context";
-import { useTipStats } from "@/context/tips-context";
-import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useSettings } from "@/context/SettingsContext";
 import { usePathname, useRouter } from "expo-router";
 import {
   Calculator,
@@ -46,8 +44,7 @@ type Props = {
 export default function AppMenu({ visible, onClose }: Props) {
   const translateY = useSharedValue(SCREEN_HEIGHT);
   const { t } = useTranslation();
-  const { themeMode, resetSettings } = useSettings();
-  const { resetBadges } = useTipStats();
+  const { themeMode } = useSettings();
   const router = useRouter();
   const pathname = usePathname();
   const insets = useSafeAreaInsets();
@@ -87,15 +84,6 @@ export default function AppMenu({ visible, onClose }: Props) {
     }
   };
 
-  const wipeAppForTest = async () => {
-    await AsyncStorage.removeItem("userConsent");
-    await AsyncStorage.removeItem("walkthroughPromptSeen");
-    await AsyncStorage.removeItem("firstLaunch");
-    resetSettings();
-    resetBadges();
-    console.log("First launch flag reset");
-  };
-
   if (!visible) return null;
 
   return (
@@ -107,7 +95,7 @@ export default function AppMenu({ visible, onClose }: Props) {
             animatedStyle,
             {
               backgroundColor: isDark ? "#111" : "#fff",
-              paddingBottom: 16 + insets.bottom, // safe area offset pre Android navigáciu
+              paddingBottom: 16 + insets.bottom,
             },
           ]}
         >
@@ -186,16 +174,6 @@ export default function AppMenu({ visible, onClose }: Props) {
               v1.0.0
             </AppText>
           </View>
-
-          {/* Wipe app */}
-          {/* <Pressable
-            className="mt-4 px-4 py-2 rounded-xl bg-red-600"
-            onPress={wipeAppForTest}
-          >
-            <AppText className="text-white text-center font-semibold">
-              Resetovať všetko
-            </AppText>
-          </Pressable> */}
         </Animated.View>
       </GestureDetector>
     </Pressable>

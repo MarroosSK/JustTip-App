@@ -1,4 +1,4 @@
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { Menu, Moon, Sun } from "lucide-react-native";
 import React from "react";
 import { Pressable, View } from "react-native";
@@ -22,7 +22,6 @@ export default function AppTopBar({
       className="absolute z-[10] flex-row justify-between items-center px-4 py-2 w-full"
       style={{ top: top + 10 }}
     >
-      {/* Menu + Pozdrav vľavo */}
       <View className="flex-row items-center">
         <Pressable onPress={onMenuPress} hitSlop={10} className="mr-3">
           <Menu size={32} color={iconColor} />
@@ -33,7 +32,6 @@ export default function AppTopBar({
         </AppText>
       </View>
 
-      {/* Toggler vpravo */}
       <Pressable
         onPress={() => setSettings({ themeMode: isDark ? "light" : "dark" })}
         className="p-2 rounded-full"

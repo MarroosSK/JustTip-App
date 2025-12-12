@@ -1,5 +1,5 @@
 import AppText from "@/components/AppText";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { Lock } from "lucide-react-native";
 import React from "react";
 import { Image, Pressable, View } from "react-native";
@@ -40,7 +40,6 @@ export default function BadgeGrid({ badges, t, openModal }: Props) {
               `}
               style={{ height: 100 }}
             >
-              {/* Badge Icon */}
               <Image
                 source={badge.icon}
                 style={{
@@ -50,8 +49,6 @@ export default function BadgeGrid({ badges, t, openModal }: Props) {
                 }}
                 resizeMode="contain"
               />
-
-              {/* Badge Name */}
               <AppText
                 className={`
                   text-center text-xs mt-2 
@@ -62,7 +59,6 @@ export default function BadgeGrid({ badges, t, openModal }: Props) {
                 {t(badge.name)}
               </AppText>
 
-              {/* LOCK OVERLAY */}
               {locked && (
                 <View
                   className={`

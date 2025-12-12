@@ -1,4 +1,4 @@
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import React from "react";
 import { Pressable, View } from "react-native";
 import AppText from "../AppText";
@@ -8,8 +8,8 @@ type Props = {
   path?: string;
   onPress: () => void;
   active?: boolean;
-  Icon?: React.FC<{ color?: string; size?: number }>; // ikonka
-  iconColor?: string; // dynamická farba ikonky
+  Icon?: React.FC<{ color?: string; size?: number }>;
+  iconColor?: string;
 };
 
 export default function AppMenuItem({
@@ -33,7 +33,6 @@ export default function AppMenuItem({
       onPress={onPress}
       className={`flex-row items-center w-full py-3 px-4 rounded-xl ${bgClass}`}
     >
-      {/* Icon */}
       {Icon && (
         <View className="mr-3">
           <Icon
@@ -42,8 +41,6 @@ export default function AppMenuItem({
           />
         </View>
       )}
-
-      {/* Label */}
       <AppText
         className={isDark ? "text-text-primaryDark" : "text-text-primaryLight"}
       >

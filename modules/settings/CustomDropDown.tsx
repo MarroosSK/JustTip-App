@@ -1,5 +1,5 @@
 import AppText from "@/components/AppText";
-import { useSettings } from "@/context/settings-context";
+import { useSettings } from "@/context/SettingsContext";
 import { ChevronDown } from "lucide-react-native";
 import React, { useState } from "react";
 import {
